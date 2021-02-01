@@ -13,7 +13,7 @@ def join_nested_strings(src)
       inner_index +=1
     end
     new_array << mixed_data
-    count +=1
+    row_index +=1
   end
   new_array
 end
