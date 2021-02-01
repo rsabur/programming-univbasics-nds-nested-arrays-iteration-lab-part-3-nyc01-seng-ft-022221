@@ -1,18 +1,15 @@
 def join_nested_strings(src)
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
-  count = 0
+  row_index = 0
   new_array = []
-  while count < src.length do
-    inner = 0
+  while row_index < src.count do
+    inner_index = 0
     mixed_data = ""
-    while inner < src[count].length do
-      if src[count][inner] == String
+    while inner_index < src[row_index].count do
+      if src[row_index][inner][0] == String
       mixed_data = src[count][inner]
     end
       inner +=1
     end
-    count +=1
-  end
-  new_array << mixed_data
 end
