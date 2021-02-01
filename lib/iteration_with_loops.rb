@@ -12,4 +12,6 @@ def join_nested_strings(src)
     end
       inner +=1
     end
+    new_array << mixed_data
+    count +=1
 end
