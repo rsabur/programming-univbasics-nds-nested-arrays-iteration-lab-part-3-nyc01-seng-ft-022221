@@ -7,7 +7,7 @@ def join_nested_strings(src)
     inner = 0
     if src[count][inner].is_s?
       new_array << src[count][inner]
-      new_array.join('')
+      new_array = ""
       inner +=1
     end
     count +=1
