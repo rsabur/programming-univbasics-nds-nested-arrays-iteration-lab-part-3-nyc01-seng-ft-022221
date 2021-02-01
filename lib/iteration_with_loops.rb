@@ -9,6 +9,7 @@ def join_nested_strings(src)
     while inner < src[count].length
       if src[count][inner].is_s?
       new_array << src[count][inner]
+    end
       inner +=1
     end
     count +=1
