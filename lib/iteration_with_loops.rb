@@ -5,12 +5,13 @@ def join_nested_strings(src)
   new_array = []
   while count < src.length do
     inner = 0
-    if src[count][inner].is_s?
+    mixed_data = ""
+    while inner < src[count].length
+      if src[count][inner].is_s?
       new_array << src[count][inner]
-      new_array = ""
       inner +=1
     end
     count +=1
   end
-  new_array
+  new_array << mixed_data
 end
