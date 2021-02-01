@@ -5,7 +5,7 @@ def join_nested_strings(src)
   new_array = []
   while count < src.length do
     inner = 0
-    mixed_data = ""
+    mixed_data = (" ")
     while inner < src[count].length
       if src[count][inner].is_s(String) == true
       new_array << src[count][inner]
