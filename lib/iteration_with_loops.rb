@@ -8,7 +8,7 @@ def join_nested_strings(src)
     mixed_data = ""
     while inner < src[count].length do
       if src[count][inner] == String
-      mixed_data == src[count][inner]
+      mixed_data = src[count][inner]
     end
       inner +=1
     end
