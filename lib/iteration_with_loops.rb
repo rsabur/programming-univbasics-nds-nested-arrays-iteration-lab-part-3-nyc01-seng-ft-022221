@@ -7,7 +7,7 @@ def join_nested_strings(src)
     inner = 0
     mixed_data = ""
     while inner < src[count].length
-      if src[count][inner] = String
+      if src[count][inner] == String
       mixed_data << src[count][inner].to_s
     end
       inner +=1
