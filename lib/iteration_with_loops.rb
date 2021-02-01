@@ -5,11 +5,11 @@ def join_nested_strings(src)
   new_array = []
   while count < src.length do
     inner = 0
-    if src[count][inner].is_a? = ''
+    if src[count][inner].is_a?
       new_array << src[count][inner]
       inner +=1
     end
     count +=1
   end
-  new_array
+  new_array = ''
 end
