@@ -10,7 +10,7 @@ def join_nested_strings(src)
       if src[row_index][inner_index] == String
       mixed_data = src[row_index][inner_index]
     end
-      inner +=1
+      inner_index +=1
     end
     new_array << mixed_data
     count +=1
